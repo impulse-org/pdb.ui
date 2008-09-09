@@ -47,6 +47,8 @@ import org.eclipse.ui.console.MessageConsoleStream;
 import org.eclipse.ui.part.ViewPart;
 
 public class FactBrowserView extends ViewPart implements IFactBaseListener {
+	public static final String ID = "org.eclipse.imp.pdb.factBrowser";
+	
 	private static final String TYPE_PROPERTY = "type";
 	private static final String BASE_TYPE_PROPERTY = "basetype";
 	private static final String CONTEXT_PROPERTY = "context";
