@@ -52,7 +52,6 @@ public class FactBrowserView extends ViewPart implements IFactBaseListener {
 	private static final String TYPE_PROPERTY = "type";
 	private static final String BASE_TYPE_PROPERTY = "basetype";
 	private static final String CONTEXT_PROPERTY = "context";
-	private static final String ELEMENT_COUNT = "elementCount";
 
 	private static final String DETAILS_CONSOLE = "Fact Details";
 
@@ -271,7 +270,7 @@ public class FactBrowserView extends ViewPart implements IFactBaseListener {
 		ISelection s = tableViewer.getSelection();
 		if (s instanceof StructuredSelection) {
 			StructuredSelection selection = (StructuredSelection) s;
-			Iterator iter = selection.iterator();
+			Iterator<?> iter = selection.iterator();
 
 			while (iter.hasNext()) {
 				IFactKey key = (IFactKey) iter.next();
@@ -285,7 +284,7 @@ public class FactBrowserView extends ViewPart implements IFactBaseListener {
 		List<IFactKey> result = new ArrayList<IFactKey>();
 		if (s instanceof StructuredSelection) {
 			StructuredSelection selection = (StructuredSelection) s;
-			Iterator iter = selection.iterator();
+			Iterator<?> iter = selection.iterator();
 
 			while (iter.hasNext()) {
 				IFactKey key = (IFactKey) iter.next();
