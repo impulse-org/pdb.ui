@@ -199,7 +199,7 @@ public class FactBrowserView extends ViewPart implements IFactBaseListener {
 			case TYPE_COLUMN:
 				return row.getType().toString();
 			case BASE_TYPE_COLUMN:
-				return row.getType().getBaseType().toString();
+				return row.getType().toString();
 			case CONTEXT_COLUMN:
 				return row.getContext().toString();
 			case COUNT_COLUMN:
