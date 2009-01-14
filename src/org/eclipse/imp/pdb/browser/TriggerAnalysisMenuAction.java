@@ -25,7 +25,7 @@ import org.eclipse.imp.pdb.facts.db.FactBase;
 import org.eclipse.imp.pdb.facts.db.FactKey;
 import org.eclipse.imp.pdb.facts.db.IFactKey;
 import org.eclipse.imp.pdb.facts.db.context.ProjectContext;
-import org.eclipse.imp.pdb.facts.impl.hash.ValueFactory;
+import org.eclipse.imp.pdb.facts.impl.reference.ValueFactory;
 import org.eclipse.imp.pdb.facts.type.Type;
 import org.eclipse.imp.pdb.facts.type.TypeFactory;
 import org.eclipse.jface.action.Action;
