@@ -13,6 +13,7 @@
 package org.eclipse.imp.pdb.browser;
 
 import java.util.Set;
+
 import org.eclipse.core.resources.IProject;
 import org.eclipse.imp.model.ISourceProject;
 import org.eclipse.imp.model.ModelFactory;

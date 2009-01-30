@@ -29,6 +29,22 @@
                toolbarPath="factBrowserActions"
                id="org.eclipse.imp.pdb.factBrowser.removeFact">
          </action>
+          <action
+               label="Show Fact"
+               style="push"
+               class="org.eclipse.imp.pdb.browser.ShowAction"
+               toolbarPath="factBrowserActions"
+               id="org.eclipse.imp.pdb.factBrowser.showFact">
+         </action>
       </viewContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="org.eclipse.imp.pdb.ui.graph.Editor"
+            default="false"
+            id="org.eclipse.imp.pdb.ui.graph.editor"
+            name="PDB Value Graph">
+      </editor>
    </extension>
 </plugin>
