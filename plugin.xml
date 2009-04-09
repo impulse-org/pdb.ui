@@ -44,6 +44,7 @@
             class="org.eclipse.imp.pdb.ui.graph.Editor"
             default="false"
             id="org.eclipse.imp.pdb.ui.graph.editor"
+            icon="icons/graphEditor.gif"
             name="PDB Value Graph">
       </editor>
    </extension>
