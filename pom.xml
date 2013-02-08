@@ -10,7 +10,7 @@
 	</parent>	
 	
 	<artifactId>org.eclipse.imp.pdb.ui</artifactId>
-	<version>0.2.4.qualifier</version>
+	<version>0.4.0.qualifier</version>
 	<packaging>eclipse-plugin</packaging>
 
 </project>

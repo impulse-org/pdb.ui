@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Program Database UI (Incubation)
 Bundle-SymbolicName: org.eclipse.imp.pdb.ui;singleton:=true
-Bundle-Version: 0.2.4.qualifier
+Bundle-Version: 0.4.0.qualifier
 Bundle-Activator: org.eclipse.imp.pdb.ui.PDBUIPlugin
 Bundle-ActivationPolicy: lazy
 Eclipse-LazyStart: true
@@ -18,5 +18,5 @@ Require-Bundle: org.eclipse.ui,
 Export-Package: org.eclipse.imp.pdb.browser,
  org.eclipse.imp.pdb.ui.text,
  org.eclipse.imp.pdb.ui.tree
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: org.eclipse.ui
