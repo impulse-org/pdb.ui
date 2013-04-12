@@ -17,7 +17,6 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.eclipse.imp.pdb.analysis.AnalysisException;
-import org.eclipse.imp.pdb.facts.IRelation;
 import org.eclipse.imp.pdb.facts.ISet;
 import org.eclipse.imp.pdb.facts.IValue;
 import org.eclipse.imp.pdb.facts.db.FactBase;
@@ -251,8 +250,6 @@ public class FactBrowserView extends ViewPart implements IFactBaseListener {
 	public String countValue(IValue fact) {
 		if (fact instanceof ISet) {
 			return Integer.toString(((ISet) fact).size());
-		} else if (fact instanceof IRelation) {
-			return Integer.toString(((IRelation) fact).size());
 		} else {
 			return "1";
 		}
