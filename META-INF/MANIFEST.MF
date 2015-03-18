@@ -19,4 +19,5 @@ Export-Package: org.eclipse.imp.pdb.browser,
  org.eclipse.imp.pdb.ui.text,
  org.eclipse.imp.pdb.ui.tree
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Import-Package: org.eclipse.ui
+Import-Package: org.eclipse.ui,
+ org.rascalmpl.values
